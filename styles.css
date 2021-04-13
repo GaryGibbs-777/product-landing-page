@@ -1,0 +1,115 @@
+.flex-container {
+    display: flex;
+}
+
+h1 {
+    font-family: Dela Gothic One, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+body {
+    font-family: Leto, Georgia, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f8f5f1;
+}
+
+
+#video {
+    padding-top: 20px;
+    position: relative;
+}
+
+.nav-link {
+    margin: 15px;
+    background-color: #333;
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+.nav-link a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-link a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    margin-top: -6px;   
+}
+
+.set-of-guitars {
+    max-width: 100%;
+}
+
+#about-us {
+    color: black;
+    margin: 40px auto 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#demo {
+    display: block;
+    margin: 40px auto 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.email-prompt {
+    text-align: center;
+    font-size: 40px;
+}
+
+#form {
+    display: block;
+    text-align: center;
+
+    top: auto;
+}
+
+.btn {
+    background: black;
+    background-image: -webkit-linear-gradient(top, black, black);
+    background-image: -moz-linear-gradient(top, black, black);
+    background-image: -ms-linear-gradient(top, black, black);
+    background-image: -o-linear-gradient(top, black, black);
+    background-image: linear-gradient(to bottom, black, black);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: white;
+    background-image: -webkit-linear-gradient(top, white, black);
+    background-image: -moz-linear-gradient(top, white, black);
+    background-image: -ms-linear-gradient(top, white, black);
+    background-image: -o-linear-gradient(top, white, black);
+    background-image: linear-gradient(to bottom, white, black);
+    text-decoration: none;
+  }
